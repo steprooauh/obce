@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class Obce extends Model
 {
-    protected $table            = 'obce';
+    protected $table            = 'obec';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'object';

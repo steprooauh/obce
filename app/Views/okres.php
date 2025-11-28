@@ -14,4 +14,18 @@
         </div>
     </div>
 </nav>
+
+<div class="" style="margin-top: 50px;">
+    <?php if ($pager): ?>
+        <?= $pager->links('default', 'pager') ?>
+    <?php endif ?>
+</div>
+
+<?php
+
+foreach($obceData as $row){
+    echo($row->nazev.'<br>');
+}
+?>
+
 <?=  $this->endSection(); ?>
